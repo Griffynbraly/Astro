@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 12c28be42b28f47ba8b698a745685435
+  productGUID: c6aa8fa41c2035542ab073df0127fb36
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Box game thing
+  productName: Boss-Arrow-Game
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -678,14 +678,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Box game thing
+  metroPackageName: Boss-Arrow-Game
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Box game thing
+  metroApplicationDescription: Boss-Arrow-Game
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -755,11 +755,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: fa00e63a-47ae-4b09-bb33-ea7339df1315
+  cloudProjectId: 4aa5b2cb-4878-47e0-bc76-a0e231d11c3d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Box game thing
-  organizationId: griffynisbester
+  projectName: Boss-Arrow-Game
+  organizationId: turtle3ursday
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
