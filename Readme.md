@@ -9,9 +9,14 @@
 
 ## Earth
 
-* United States
+### United States
+
 * Washington
 * Seattle
 * Ballard
 * Ballard High School
 * Computer Lab
+
+* Alabama
+* Fairhope
+* Shady Acres
