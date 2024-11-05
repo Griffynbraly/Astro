@@ -7,10 +7,11 @@ public class PlayerMove : MonoBehaviour
 {
     
     private Rigidbody rb;
-    private float moveSpeed =15;
+    private float moveSpeed =10;
     public float jumpSpeed;
     public bool onGround = false;
     public bool facingRight;
+    Quaternion rotation;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -20,24 +21,19 @@ public class PlayerMove : MonoBehaviour
     void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");
-
+       
         if (horizontal > 0)
         {
             facingRight = true;
+            rotation = Quaternion.Euler(0, 0, 0);
         }
         
         if (horizontal < 0)
         {
             facingRight = false;
+            rotation = Quaternion.Euler(0, 180, 0);
         }
-        if (onGround)
-        {
-            moveSpeed = 15;
-        }
-        else
-        {
-            moveSpeed = 10;
-        }
+       
         Vector3 movement = new Vector3(horizontal * moveSpeed, rb.velocity.y);
         rb.velocity = movement;
 
@@ -45,6 +41,8 @@ public class PlayerMove : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpSpeed, ForceMode.Impulse);
         }
+
+        transform.rotation = rotation;
 
     }
 
