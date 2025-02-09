@@ -34,8 +34,8 @@ public class PlayerMove : MonoBehaviour
             rotation = Quaternion.Euler(0, 180, 0);
         }
        
-        Vector3 movement = new Vector3(horizontal * moveSpeed, rb.velocity.y);
-        rb.velocity = movement;
+        Vector3 movement = new Vector3(horizontal * moveSpeed, rb.linearVelocity.y);
+        rb.linearVelocity = movement;
 
         if (Input.GetKey(KeyCode.Space) && onGround)
         {
